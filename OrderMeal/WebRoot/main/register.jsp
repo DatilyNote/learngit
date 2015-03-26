@@ -110,12 +110,8 @@ window.attachEvent("onload", correctPNG);
         <td width="1%" >&nbsp;</td>
         <td width="50%" valign="bottom"><table width="100%" height="59" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
-              <td width="4%">&nbsp;</td>
-              <td width="96%" height="38"><span class="login_txt_bt">${errMsg}</span></td>
-            </tr>
-            <tr>
             	<td width="4%">&nbsp;</td>
-                <td width="36%" height="38"><span class="login_txt_bt">ÕËºÅµÇÂ½</span></td>
+                <td width="36%" height="38"><span class="login_txt_bt">ÓÃ»§×¢²á</span></td>
             </tr>
             <tr>
               <td>&nbsp;</td>
@@ -128,24 +124,39 @@ window.attachEvent("onload", correctPNG);
                             <td height="38" colspan="2" class="top_hui_text"><input name="username" class="editbox4" value="" size="20">                            </td>
                           </tr>
                           <tr>
-                            <td width="13%" height="35" class="top_hui_text"><span class="login_txt"> ÃÜ  Âë£º&nbsp;&nbsp; </span></td>
+                            <td width="13%" height="35" class="top_hui_text"><span class="login_txt">ÃÜ   Âë£º&nbsp;&nbsp; </span></td>
                             <td height="35" colspan="2" class="top_hui_text"><input class="editbox4" type="password" size="20" name="pwd">
                               <img src="images/luck.gif" width="19" height="18"> </td>
                           </tr>
                           <tr>
+                            <td width="13%" height="35" class="top_hui_text"><span class="login_txt">ÃÜÂëÈ·ÈÏ£º&nbsp;&nbsp; </span></td>
+                            <td height="35" colspan="2" class="top_hui_text"><input class="editbox4" type="password" size="20" name="conpwd">
+                              <img src="images/check-out_.gif" width="19" height="18"> </td>
+                          </tr>
+                          <tr>
+                            <td width="13%" height="35" class="top_hui_text"><span class="login_txt">µç   »°£º&nbsp;&nbsp; </span></td>
+                            <td height="35" colspan="2" class="top_hui_text"><input class="editbox4" size="20" name="tel">
+                              <img src="images/icon-phone.gif" width="19" height="18"> </td>
+                          </tr>
+                          <tr>
+                            <td width="13%" height="35" class="top_hui_text"><span class="login_txt">µØ   Ö·£º&nbsp;&nbsp; </span></td>
+                            <td height="35" colspan="2" class="top_hui_text"><input class="editbox4" type="text" size="20" name="address">
+                              <img src="images/add.gif" width="19" height="18"> </td>
+                          </tr>
+                          <tr>
                             <td height="35" >&nbsp;</td>
-                            <td width="20%" height="35" ><input name="Submit" type="submit" class="button" id="Submit" value="µÇÂ½"></td>
+                            <td width="20%" height="35" ><input name="Submit" type="submit" class="button" id="Submit" value="×¢²á"></td>
                             <td width="67%" class="top_hui_text"><input name="cs" type="button" class="button" id="cs" value="È¡Ïû" onClick="showConfirmMsg1()"></td>
                           </tr>
                           <tr>
-                          	<td ></td><td><a href="<%=basePath%>main/register.jsp">Ãâ·Ñ×¢²á</a></td>
+                          	<td ></td><td><a href="<%=basePath%>main/login.jsp">µÇÂ½</a></td>
                           </tr>
                         </table>
                         <br>
                     </form></td>
                   </tr>
                   <tr>
-                    <td width="433" height="164" align="right" valign="bottom"><img src="images/login-wel.gif" width="242" height="138"></td>
+                    <td width="433" height="1" align="right" valign="bottom"><img src="images/login-wel.gif" width="242" height="138"></td>
                     <td width="57" align="right" valign="bottom">&nbsp;</td>
                   </tr>
               </table></td>

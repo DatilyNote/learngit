@@ -11,12 +11,12 @@ import cn.nnb.biz.UserBiz;
 import cn.nnb.pojo.User;
 import cn.nnb.util.Log;
 
-public class LoginSvl extends HttpServlet {
+public class RegisterSvl extends HttpServlet {
 
 	/**
 	 * Constructor of the object.
 	 */
-	public LoginSvl() {
+	public RegisterSvl() {
 		super();
 	}
 
@@ -33,6 +33,9 @@ public class LoginSvl extends HttpServlet {
 		
 		String uname = request.getParameter("username");
 		String pwd = request.getParameter("pwd");
+		String conpwd = request.getParameter("conpwd");
+		String tel = request.getParameter("tel");
+		String address = request.getParameter("address");
 		if(uname!=null && pwd !=null && !uname.equals("") && !pwd.equals("")){
 			UserBiz biz = new UserBiz();
 			try {
